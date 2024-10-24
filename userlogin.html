@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+    .login-container{
+            height: 100%;
+            background-image: url('./backimg.jpeg'); /* Path to your image */
+            background-size: cover;
+            background-position: center;
+        }
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+    }
+
+    .login-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    
+    .login-box {
+        background-color: white;
+        width: 350px;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        position: relative;
+        text-align: center;
+        background-image: url('./img.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+    .close-button {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        font-size: 20px;
+        cursor: pointer;
+    }   
+    h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }  
+    .create-account {
+        color: #ff5722;
+        font-size: 14px;
+        text-decoration: none;
+    }   
+    .underline {
+        width: 30px;
+        height: 2px;
+        background-color: black;
+        margin: 10px auto;
+    }  
+    .login-content {
+        margin-top: 20px;
+    }
+    .login-image {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        margin-bottom: 20px;
+    }
+    .phone-input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+    .login-btn {
+        background-color: #ff5722;
+        color: white;
+        width: 100%;
+        padding: 10px;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+    }  
+    .terms {
+        margin-top: 20px;
+        font-size: 15px;
+        color: black;
+    }
+    .terms a {
+        color: #ff5722;
+        text-decoration: none;
+    }
+</style> 
+</head>
+<body>
+    <div class="login-container"> 
+        <div class="login-box">
+            <div class="close-button">
+                &#x2715;
+            </div>
+            <h2>Login</h2>
+            <a href="#" class="create-account">or create an account</a>
+            <hr class="underline">
+            <div class="login-content">
+                <img src="./salad.avif" alt="salad image" class="login-image">
+                <input type="number" placeholder="Phone number" class="phone-input">
+                <button class="login-btn">LOGIN</button>
+                <p class="terms">By clicking on Login, I accept the 
+                    <a href="#">Terms & Conditions</a> & 
+                    <a href="#">Privacy Policy</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

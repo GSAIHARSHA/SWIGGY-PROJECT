@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .menu-container {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .menu-header {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .menu-item {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            display: flex;
+            padding: 15px;
+            align-items: center;
+        }
+        .menu-item img {
+            width: 80px;
+            height: auto;
+            border-radius: 5px;
+            margin-right: 15px;
+        }
+        .menu-info {
+            flex: 1;
+        }
+        .menu-info h3 {
+            font-size: 18px;
+            margin: 0 0 5px;
+        }
+        .menu-info p {
+            font-size: 14px;
+            margin: 0 0 5px;
+            color: #555;
+        }
+        .menu-price {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .menu-action {
+            text-align: right;
+        }
+        .menu-action button {
+            background-color: #28a745;
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .menu-action button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <div class="menu-header">Recommended</div>
+        <div class="menu-item">
+            <img src="./combo" alt="Combo for 1 Non-Veg">
+            <div class="menu-info">
+                <h3>Combo for 1 Non-Veg</h3>
+                <p>₹379</p>
+                <p>Serves 1 | Combo for one (Rice/Noodle Bowl with choice of Non-Veg Gravy, Non-Veg Momos & Drinks)</p>
+                <p>Rating: ⭐3.1 (6)</p>
+            </div>
+            <div class="menu-action">
+                <button>Add</button>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="./veg" alt="Combo for 1 Veg">
+            <div class="menu-info">
+                <h3>Combo for 1 Veg</h3>
+                <p>₹359</p>
+                <p>Serves 1 | Combo for one (Rice/Noodle Bowl with choice of Veg Gravy, Veg Momos & Drinks)</p>
+                <p>Rating: ⭐3.8 (10)</p>
+            </div>
+            <div class="menu-action">
+                <button>Add</button>
+            </div>
+        </div>
+        <div class="menu-item">
+            <img src="./paneer.jpg_compressed" alt="Hunan Paneer Dry">
+            <div class="menu-info">
+                <h3>Hunan Paneer Dry</h3>
+                <p>₹199 <del>₹369</del></p>
+                <p>Serves 1 | (Spicy) Cubes Of Paneer, Onion, Capsicum Tossed With Spicy & Savory flavors of Hunan Sauce.</p>
+            </div>
+            <div class="menu-action">
+                <button>Add</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
